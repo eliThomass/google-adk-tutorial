@@ -1,0 +1,54 @@
+.env
+.env.*
+*.env
+
+# API keys / credentials / secrets
+*.pem
+*.key
+*.json
+credentials.json
+service-account*.json
+*.p12
+*.pfx
+
+# SSH / auth artifacts (just in case)
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# ADK / Google specific
+.adk/
+*.log
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+.ipynb_checkpoints/
+
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+*.log
+*.tmp
+*.temp
+
+.git-credentials
